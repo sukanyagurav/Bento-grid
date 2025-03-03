@@ -14,8 +14,16 @@ export default {
       fontFamily: {
         dmSans: ['DM Sans', 'sans-serif'],
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(20px)' }, // Moves right
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
     },
-   
   },
   plugins: [],
 };
