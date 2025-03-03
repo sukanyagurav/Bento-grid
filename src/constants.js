@@ -6,5 +6,5 @@ export const images={
     growFollowers : "/assets/images/illustration-grow-followers.webp",
     audienceGrowth : "/assets/images/illustration-audience-growth.webp",
     createPost : "/assets/images/illustration-create-post.webp",
-    createContent : "../public/assets/images/illustration-ai-content.webp",
+    createContent : "/assets/images/illustration-ai-content.webp",
 }
